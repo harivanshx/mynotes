@@ -1,0 +1,119 @@
+
+
+```bash
+(base) C:\Users\hariv\Desktop>cd C:\Users\hariv\OneDrive\Desktop\MachineLearning
+
+(base) C:\Users\hariv\OneDrive\Desktop\MachineLearning>python --version
+Python 3.13.5
+
+(base) C:\Users\hariv\OneDrive\Desktop\MachineLearning>conda create -p linear python=3.13.5
+3 channel Terms of Service accepted
+Retrieving notices: done
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.5.1
+    latest version: 25.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\hariv\OneDrive\Desktop\MachineLearning\linear
+
+  added / updated specs:
+    - python=3.13.5
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2025.9.9   |       haa95532_0         127 KB
+    libzlib-1.3.1              |       h02ab6af_0          64 KB
+    openssl-3.0.18             |       h543e019_0         6.8 MB
+    pip-25.2                   |     pyhc872135_0         1.2 MB
+    python_abi-3.13            |          1_cp313           6 KB
+    setuptools-78.1.1          |  py313haa95532_0         2.2 MB
+    sqlite-3.50.2              |       hda9a48d_1        1017 KB
+    tk-8.6.15                  |       hf199647_0         3.5 MB
+    ucrt-10.0.22621.0          |       haa95532_0         620 KB
+    vc-14.3                    |      h2df5915_10          19 KB
+    vc14_runtime-14.44.35208   |      h4927774_10         825 KB
+    vs2015_runtime-14.44.35208 |      ha6b5a95_10          19 KB
+    zlib-1.3.1                 |       h02ab6af_0         113 KB
+    ------------------------------------------------------------
+                                           Total:        16.5 MB
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              pkgs/main/win-64::bzip2-1.0.8-h2bbff1b_6
+  ca-certificates    pkgs/main/win-64::ca-certificates-2025.9.9-haa95532_0
+  expat              pkgs/main/win-64::expat-2.7.1-h8ddb27b_0
+  libffi             pkgs/main/win-64::libffi-3.4.4-hd77b12b_1
+  libmpdec           pkgs/main/win-64::libmpdec-4.0.0-h827c3e9_0
+  libzlib            pkgs/main/win-64::libzlib-1.3.1-h02ab6af_0
+  openssl            pkgs/main/win-64::openssl-3.0.18-h543e019_0
+  pip                pkgs/main/noarch::pip-25.2-pyhc872135_0
+  python             pkgs/main/win-64::python-3.13.5-h286a616_100_cp313
+  python_abi         pkgs/main/win-64::python_abi-3.13-1_cp313
+  setuptools         pkgs/main/win-64::setuptools-78.1.1-py313haa95532_0
+  sqlite             pkgs/main/win-64::sqlite-3.50.2-hda9a48d_1
+  tk                 pkgs/main/win-64::tk-8.6.15-hf199647_0
+  tzdata             pkgs/main/noarch::tzdata-2025b-h04d1e81_0
+  ucrt               pkgs/main/win-64::ucrt-10.0.22621.0-haa95532_0
+  vc                 pkgs/main/win-64::vc-14.3-h2df5915_10
+  vc14_runtime       pkgs/main/win-64::vc14_runtime-14.44.35208-h4927774_10
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.44.35208-ha6b5a95_10
+  wheel              pkgs/main/win-64::wheel-0.45.1-py313haa95532_0
+  xz                 pkgs/main/win-64::xz-5.6.4-h4754444_1
+  zlib               pkgs/main/win-64::zlib-1.3.1-h02ab6af_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate C:\Users\hariv\OneDrive\Desktop\MachineLearning\linear
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+(base) C:\Users\hariv\OneDrive\Desktop\MachineLearning>conda env list
+
+# conda environments:
+#
+                       C:\Users\hariv\OneDrive\Desktop\MachineLearning\linear
+base                 * C:\Users\hariv\anaconda3
+
+
+(base) C:\Users\hariv\OneDrive\Desktop\MachineLearning>conda activate "C:\Users\hariv\OneDrive\Desktop\MachineLearning\linear"
+
+(C:\Users\hariv\OneDrive\Desktop\MachineLearning\linear) C:\Users\hariv\OneDrive\Desktop\MachineLearning>conda env list
+
+# conda environments:
+#
+                     * C:\Users\hariv\OneDrive\Desktop\MachineLearning\linear
+base                   C:\Users\hariv\anaconda3
+
+
+(C:\Users\hariv\OneDrive\Desktop\MachineLearning\linear) C:\Users\hariv\OneDrive\Desktop\MachineLearning>
+```

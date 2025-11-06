@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"8aa2658569c894bf","x":-275,"y":-186,"width":250,"height":60,"type":"text","text":"Working Directory\n"},
+		{"id":"070674bf7e7185c2","x":-220,"y":-100,"width":690,"height":60,"type":"text","text":"<<<<<<<<<<<<<<< Checkout The Project <<<<<<<<<<<<<<<<<<<<<<<<"},
+		{"id":"ed9b570e4514381e","x":-250,"y":0,"width":250,"height":60,"type":"text","text":"Staged files>>>>>>>>"},
+		{"id":"7e4bd4e1ffdfcd20","x":220,"y":80,"width":250,"height":60,"type":"text","text":"Commit >>>>>>>>>"},
+		{"id":"10d0204870624b4d","x":0,"y":-186,"width":250,"height":60,"type":"text","text":"Staging Area"},
+		{"id":"f66c2ca869c619bd","x":280,"y":-186,"width":250,"height":60,"type":"text","text":"Git Directory(Repo)"}
+	],
+	"edges":[]
+}
