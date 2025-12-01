@@ -1,5 +1,8 @@
 
 
+
+[[Machine Learning]]
+
 - After batch machine Learning to solve the problem 
 
 - Performance Will Improve after some use, Battery calibration , Usage Pattern recognition

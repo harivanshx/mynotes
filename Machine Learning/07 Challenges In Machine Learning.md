@@ -1,4 +1,8 @@
 
+
+
+[[Machine Learning]]
+
 #### Data Collection :
 - Through API
 - Via Web Scrapping

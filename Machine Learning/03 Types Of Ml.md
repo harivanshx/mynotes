@@ -1,5 +1,6 @@
 
 
+[[Machine Learning]]
 
 
 on the bases of supervision we have 3 types of machine learning 

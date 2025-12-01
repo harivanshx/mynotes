@@ -1,5 +1,9 @@
 
 
+
+[[Machine Learning]]
+
+
 ### SO what are tensors 
 
 - Tensor is a data structure

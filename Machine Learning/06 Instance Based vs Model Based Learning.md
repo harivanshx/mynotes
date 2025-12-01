@@ -5,6 +5,9 @@ Learning ::
    2. Generalizing
 
 
+[[Machine Learning]]
+
+
 ### Instance Based 
  Distance from one point to all the points around it and find the nearest point to it and that will decide if that data point belong to which category
 

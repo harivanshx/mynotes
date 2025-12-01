@@ -1,4 +1,11 @@
 
+
+
+
+[[Machine Learning]]
+
+
+
 - json is used to get the data and this data is mainly available in data which we get from the 
 
 ![[Pasted image 20251107223132.png]]

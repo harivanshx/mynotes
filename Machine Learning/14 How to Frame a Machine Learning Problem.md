@@ -3,6 +3,10 @@
 
 
 
+
+
+[[Machine Learning]]
+
 ##### Series of Steps
 
 - Lets take example of netflix
