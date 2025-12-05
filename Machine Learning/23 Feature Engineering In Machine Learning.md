@@ -10,6 +10,29 @@
 
 
 
+Feature Engineering 
+
+
+
+
+1.1 Missing Values Imputation
+
+1.2 Handling Categorical values
+
+categorical to neumarical 
+
+1.3 Outlier Detection 
+
+1.4 Feature Scaling 
+
+2. Feature Construction 
+
+3. Feature Selection 
+
+4. Feature Extraction 
+
+
+
 ### Feature Transformation 
 
 - Missing Values Imputation  -- Work on by removing the or fill those missing values
@@ -38,13 +61,23 @@ then we can get the feature family in categories
 - so we can say 784 feature 
 - but can we say all the 784 are important 
 - we can reduce the dimension of the image so that we can get the data and also 
-- reduce the number of features
+- We can also reduce the number of features by adding margin also 
+
+
+
 
 
 
 ### Feature Extraction 
 
-- Rooms or Washrooms
+
+![[Pasted image 20251201232347.png]]
+
+
+
+- Rooms or Washrooms both are important but if we dont want to take both we will create a new column 
 - but we can use the sqft area as that feature directly dependent on the rooms and washrooms together 
-- PCA is a most common feature extraction technique 
+- PCA is a most common feature extraction technique .
+
+
 
