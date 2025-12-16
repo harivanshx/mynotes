@@ -1,6 +1,16 @@
 Pipeline cgain togetger multiple steps so that the output of each step is used as input to the next step 
 Pipelines mkaes it easy to apply the same preprocessing to train and test 
 
+Pipelines chains together multiple steps so that the output of each step is used
+as input to the next step.
+
+Pipelines makes it easy to apply the same preprocessing to train and test!
+
+
+
+
+
+
 ``` python 
 
 
@@ -63,3 +73,7 @@ one hot encoding Sex and Embarked ohe_sex = OneHotEncoder(sparse=False,handle_un
 
 
 ```
+
+
+
+![[Pasted image 20251216230047.png]]
