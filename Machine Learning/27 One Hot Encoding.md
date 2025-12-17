@@ -1,3 +1,4 @@
+[[Machine Learning]]
 
 
 For converting categorical data into numerical data which is not ordinal we use the one hot encoding for that 

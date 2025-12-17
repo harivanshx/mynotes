@@ -1,3 +1,5 @@
+[[Machine Learning]]
+
 Pipeline cgain togetger multiple steps so that the output of each step is used as input to the next step 
 Pipelines mkaes it easy to apply the same preprocessing to train and test 
 

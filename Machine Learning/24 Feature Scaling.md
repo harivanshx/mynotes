@@ -1,3 +1,4 @@
+[[Machine Learning]]
 
 
 - Feature Scaling is a technique which deals with the feature to standerdize the independent features present in the data in a fixed range so that it is easy to get the data and learn about the data in the graph because if we dont do that our visualization become so much of the bad side as it become very difficult in playing larger data ranges

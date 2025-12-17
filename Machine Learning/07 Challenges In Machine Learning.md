@@ -22,12 +22,12 @@
 - Garbage in is Garbage out 
 - Feature Engineering Need to be done
 
-#### Over Fitting
+#### [[Over Fitting]]
 - Remember the data points but don't learn from the data
 - in a city you go to movie-hall but you found out the tickets are for 1200 inr so you make a conclusion that this city is expensive .
 ![[Pasted image 20251031121305.png]] ![[Pasted image 20251031121322.png]]
 
-#### Underfitting
+#### [[Underfitting]]
 
 - when you make the model so much simple
 

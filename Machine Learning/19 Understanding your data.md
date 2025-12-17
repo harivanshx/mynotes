@@ -1,8 +1,6 @@
 
 
-
 [[Machine Learning]]
-
 
 
 - Asking Basic Question from your data

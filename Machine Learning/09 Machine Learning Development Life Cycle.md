@@ -7,7 +7,7 @@ SOFTWARE ENGINEERING
 
 SDLC (Software Development Life Cycle) :
 
-##### MLDLC ( Machine Learning Development Life Cycle ):
+##### [[ MLDLC ( Machine Learning Development Life Cycle )]]:
 
 1. Problem Framing
 2. Data Gathering -
@@ -42,4 +42,3 @@ SDLC (Software Development Life Cycle) :
 	- Data
 	- Load balancing 
 	- Retraining Time
-

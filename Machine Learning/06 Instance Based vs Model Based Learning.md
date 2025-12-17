@@ -1,5 +1,9 @@
 
 
+
+
+
+
 Learning ::
    1. Memorizing
    2. Generalizing
@@ -11,7 +15,7 @@ Learning ::
 ### Instance Based 
  Distance from one point to all the points around it and find the nearest point to it and that will decide if that data point belong to which category
 
-- KNN 
+- [[K Nearest Neighbout]]
 - RDF Functions
  
 
@@ -30,9 +34,9 @@ Learning ::
 Model Based Learning:
 By learning on the model it find a mathematical relation between input and output and find the decision function .
 Example :
-- Linear Reg
-- Log Reg
-- Decision Trees
+- [[50 Linear Regression]]
+- [[51 Logistic Regression]]
+- [[Decision Trees]]
 After creating the function we dont need the data points:
 
 ![[Pasted image 20251031115049.png]]

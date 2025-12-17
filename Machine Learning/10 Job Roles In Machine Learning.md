@@ -60,13 +60,13 @@ which job profile is good for you ??
 3. Data Scientist :
 	- Data Scientist is someone who is better at statistics then any software engineer and better ar software engineering then any statistician 
 
-4. Machine Learning Engineer :
-	- Deploying Machine Learning models to production ready environment 
-	- Scalling and optimizing the model for prediction 
+4. [[Machine Learning Engineer]] :
+	- [[Deploying]] Machine Learning models to production ready environment 
+	- [[Scalling]] and [[optimizing]] the model for prediction 
 	- Monitoring and maintanance of deployed models 
 	- ##### Skills:
 	-  Mathematics
-	- Programming Languages(R/Python/Java/ScaIa mainly)
+	- [[Programming Languages]](R/Python/Java/ScaIa mainly)
 	- Distr ibuted Systems
 	- Data model and evaluation
 	- Machine Learning models

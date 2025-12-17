@@ -1,6 +1,6 @@
 
 
-v[[Machine Learning]]
+[[Machine Learning]]
 
 
 

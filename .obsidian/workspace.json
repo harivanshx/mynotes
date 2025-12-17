@@ -25,32 +25,14 @@
             "id": "c8a74adff2a2b739",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/47 Principle Component Analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "47 Principle Component Analysis"
-            }
-          },
-          {
-            "id": "7df64e043418287d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/03 Types Of Ml.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03 Types Of Ml"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,47 +182,47 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "7df64e043418287d",
+  "active": "c8a74adff2a2b739",
   "lastOpenFiles": [
-    "Machine Learning/Term Frequeny.md",
-    "Machine Learning/Machine Learnign.md",
-    "Machine Learning/50 Linear Regression.md",
+    "Machine Learning/10 Job Roles In Machine Learning.md",
+    "Machine Learning/09 Machine Learning Development Life Cycle.md",
+    "Machine Learning/08 Applications Of Machine Learning.md",
+    "Machine Learning/07 Challenges In Machine Learning.md",
+    "Machine Learning/06 Instance Based vs Model Based Learning.md",
+    "Machine Learning/05 Online Machine Learning.md",
+    "Machine Learning/04 Batch Machine Learning.md",
+    "Machine Learning/03 Types Of Ml.md",
     "Machine Learning/01 Self learning.md",
-    "50 Linear Regression.md",
-    "Machine Learning/47 Principle Component Analysis.md",
+    "Machine Learning/50 Linear Regression.md",
+    "Machine Learning/11 What are Tensors.md",
+    "Machine Learning/12 Installing Anaconda.md",
+    "Machine Learning/13 End To End ML Project toy dataset.md",
+    "Machine Learning/14 How to Frame a Machine Learning Problem.md",
+    "Machine Learning/16 working with json or sql.md",
+    "Machine Learning/17 Fetching Data From API.md",
+    "Machine Learning/19 Understanding your data.md",
+    "Machine Learning/20 EDA using Univariate Analysis.md",
+    "Machine Learning/21 Bi variate and multi variate analysis.md",
+    "Machine Learning/23 Feature Engineering In Machine Learning.md",
+    "Machine Learning/24 Feature Scaling.md",
+    "Machine Learning/26 Encoding Categorical Data.md",
+    "Machine Learning/27 One Hot Encoding.md",
+    "Machine Learning/28 Column Transformer.md",
+    "Machine Learning/29 Scikit Learn Pipelines.md",
+    "Machine Learning/30 Function Transformation.md",
     "attachments/Pasted image 20251217010740.png",
     "attachments/Pasted image 20251217010647.png",
     "attachments/Pasted image 20251217010021.png",
     "attachments/Pasted image 20251217003333.png",
-    "Machine Learning/29 Scikit Learn Pipelines.md",
     "attachments/Pasted image 20251216230047.png",
-    "Machine Learning/30 Function Transformation.md",
     "attachments/Pasted image 20251216220436.png",
-    "Machine Learning/28 Column Transformer.md",
-    "Mathematics/01 Syllabus.md",
-    "AWS/AWS EC2.md",
     "Mathematics",
-    "AWS/Amazon Sage Maker.md",
-    "AWS/Amazon S3.md",
-    "JAVA/01 Intro.md",
-    "Machine Learning/Things to remember.md",
     "Untitled",
-    "Deep Learning/Perceptron.md",
     "attachments/Pasted image 20251205072846.png",
-    "Deep Learning/2 Types Of nural Network and Applications.md",
     "attachments/Pasted image 20251205071324.png",
-    "Deep Learning/What is Deep Learning.md",
     "attachments/Pasted image 20251205064604.png",
     "attachments/Pasted image 20251205064353.png",
     "Deep Learning",
-    "tags/Distributed data.md",
-    "Big Data/apache spark.md",
-    "Machine Learning/Machine Learning.md",
-    "22.md",
-    "Project/AI & ML Project Ideas (With Hiring Impact + Tech Stack).md",
-    "Machine Learning/26 Encoding Categorical Data.md",
-    "Machine Learning/25 Normalization.md",
-    "Machine Learning/24 Feature Scaling.md",
     "MYSQL",
     "JAVA",
     "DSA",

@@ -10,17 +10,17 @@ on the bases of supervision we have 3 types of machine learning
 3. Semi Supervised Machine Learning
 
 
-### 1. Supervised Machine Learning
+### 1.  [[Supervised Machine Learning]]
 
-1. Regression : If target column is numeric so it is a regression analysis
+1. [[Regression]] : If target column is numeric so it is a regression analysis
 Example : Package of students , Sales number, Age , IQ, CGPA ,House Price Prediction etc.
-2. Classification : If target column is categorical so it is a classification 
+2. [[Classification]] : If target column is categorical so it is a classification 
 Example : SPAM or Not, Rain or Not Rain , Dog or Not, Goat or Cat etc . 
 
 
 
 
-### 2. Unsupervised Machine Learning 
+### 2. [[Unsupervised Machine Learning ]]
 
 
 1. Clustering 
@@ -68,14 +68,14 @@ Divide Datapoints into group , it is a powerful technique
 	we will use association by scan the previous bills and associate the similar products together .
 	Wallmart Employee : Baby dippers and bear stack together and if they have this there sales increase day by day . this is an interesting use case 
 	
-### 3. Semi Supervised Learning
+### 3. [[Semi Supervised Learning]]
 
 Label data we have less and so thats why we use some of the 
 
 Google Photos Clustering : as a user i just have labeled just one photo and all of the photos tagged by that label 
 
 
-### 4. Reinforcement Learning
+### 4. [[Reinforcement Learning]]
 
 Self Driving Cars , Agent Learning  in a given environment by learning in the multiple possibilities by finding the best decision , agent just have policies and we have reward and punishment and it improve it policies and then it learn through that reward maximization process.
 
