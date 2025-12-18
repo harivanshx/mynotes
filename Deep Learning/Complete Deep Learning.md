@@ -641,3 +641,315 @@ Types:
 - Area under ROC curve
     
 - Best for **imbalanced datasets**
+
+
+
+[Complete Deep Learning.pdf](attachment:59dd48e7-c9e2-4925-9d1f-aa4abb1717ea:Complete_Deep_Learning.pdf)
+
+![image.png](attachment:df1f25e4-856f-43aa-8efc-6eb2c1ab26f9:image.png)
+
+![image.png](attachment:f5985227-ef92-4235-8cdf-27b3f1245272:image.png)
+
+![image.png](attachment:4413a2bc-0948-4e52-bdf6-b6779c25c6a4:image.png)
+
+# CNN
+
+Convolution is an operation where a **small matrix (kernel / filter)** slides over the image and **extracts features**.
+
+### **Problem with Classical CV**
+
+> “Classical CV feature definition is domain-specific and time-consuming”
+
+Meaning:
+
+- Features had to be **manually designed**
+- Different features for different problems
+- Took a lot of **expert knowledge + time**
+- Did not scale well
+
+---
+
+### **One-line summary**
+
+Classical Computer Vision =
+
+**Manually design features → apply ML → get results**
+
+But it’s **slow, hard, and problem-specific**, which is why **Deep Learning replaced it**.
+
+**“A Logical Calculus of the Ideas Immanent in Nervous Activity” (1943)**
+
+What this means:
+
+- First paper that said:
+    
+    > Brain activity can be explained using mathematics and logic
+    
+- Published in **1943**
+    
+- This paper started:
+    
+    - Neural Networks
+    - AI
+    - Computational neuroscience
+
+---
+
+## **Key idea of the slide**
+
+- Brain neurons → **logical units**
+- Logical units → **artificial neurons**
+- Artificial neurons → **neural networks**
+
+![image.png](attachment:bcc7c50c-ec96-4a6f-92fb-2516d29ad247:image.png)
+
+## **What this diagram shows**
+
+This is **one artificial neuron** (basic building block of a neural network).
+
+---
+
+## **x₁ and x₂ (inputs)**
+
+- These are **features** (numbers from your data)
+- Example: height, weight, pixel value, marks, etc.
+- **Normalized** means values are scaled between **0 and 1**
+
+👉 Here:
+
+- x₁ = 0.3
+- x₂ = 0.8
+
+---
+
+## **w₁ and w₂ (weights)**
+
+- Weights tell **how important** each input is
+- Bigger weight = more importance
+
+👉 Given:
+
+- w₁ = 0.5
+- w₂ = 0.5
+
+---
+
+## **Multiplication (importance applied)**
+
+Each input is multiplied by its weight:
+
+- x₁ × w₁ → contribution of x₁
+- x₂ × w₂ → contribution of x₂
+
+---
+
+## **Σ (summation block)**
+
+This symbol **adds everything**:
+
+sum=(w1×x1)+(w2×x2)\text{sum} = (w₁ × x₁) + (w₂ × x₂)
+
+sum=(w1×x1)+(w2×x2)
+
+Substitute values:
+
+=(0.5×0.3)+(0.5×0.8)= (0.5 × 0.3) + (0.5 × 0.8)
+
+=(0.5×0.3)+(0.5×0.8)
+
+=0.15+0.40=0.55= 0.15 + 0.40 = 0.55
+
+=0.15+0.40=0.55
+
+👉 This is called **weighted sum**
+
+---
+
+## **Activation function (step / curve symbol)**
+
+- Takes the weighted sum (0.55)
+- Decides **should neuron fire or not**
+- Converts number into output **y**
+
+Examples:
+
+- Step → 0 or 1
+- Sigmoid → probability
+- ReLU → max(0, x)
+
+---
+
+## **y (output)**
+
+- Final output of neuron
+- Can be:
+    - Class label (0 / 1)
+    - Probability
+    - Score
+
+---
+
+## **One-line summary**
+
+A neuron:
+
+> multiplies inputs by importance (weights), adds them, applies a function, and produces output
+
+![image.png](attachment:ea7f0b4c-49a2-4b95-a5d2-7440aefb47bd:image.png)
+
+![image.png](attachment:21ef709f-b66c-44cf-951d-13ae7aa5c122:image.png)
+
+## **The Bayes Classifier**
+
+A **Bayes classifier** predicts the class that has the **highest probability given the data**.
+
+---
+
+## **Main idea on the slide**
+
+arg⁡max⁡Y  P(Y∣X1,…,Xn)\arg\max_Y \; P(Y \mid X_1, \dots, X_n)
+
+argYmaxP(Y∣X1,…,Xn)
+
+### Break it down:
+
+- **Y** → class label
+    
+    (e.g., digit = 0,1,2,…,9)
+    
+- **X₁ … Xₙ** → features
+    
+    (e.g., pixel values of an image)
+    
+- **P(Y | X₁,…,Xₙ)** →
+    
+    “Probability that the class is **Y**, given the features”
+    
+- **arg max** →
+    
+    “Pick the class with the **largest probability**”
+    
+
+## Drive into CNN
+
+In a convolutional network (ConvNet), there are basically three types of layers: 1.Convolution layer 2.Pooling layer 3.Fully connected layer
+
+### **“A CNN is a neural network with some convolutional layers”**
+
+- CNN = Convolutional Neural Network
+- It is a neural network **specialized for images**
+- It has:
+    - Convolution layers
+    - Plus other layers (ReLU, pooling, fully connected)
+
+---
+
+### **“A convolutional layer has a number of filters”**
+
+- A **filter (kernel)** is a small matrix (e.g., 3×3, 5×5)
+- Filters are **learned during training**
+- Each filter looks for **one pattern**
+
+## Important
+
+**In a convolutional network (ConvNet), there are basically three types of layers: 1.Convolution layer 2.Pooling layer 3.Fully connected layer**
+
+![image.png](attachment:34d0416d-e78c-4145-9045-719778cb3c9d:image.png)
+
+# for visualization
+
+[https://www.pinecone.io/learn/series/image-search/cnn/](https://www.pinecone.io/learn/series/image-search/cnn/)
+
+![image.png](attachment:f277ea4a-e6b6-4728-9aac-338529587b20:image.png)
+
+![image.png](attachment:9fa9ce75-9209-4241-897d-e663ba9578c2:image.png)
+
+![image.png](attachment:c44b1096-ffd9-4266-a241-3c6be89629f1:image.png)
+
+![image.png](attachment:53fdc860-eab4-482d-a049-832392268448:image.png)
+
+A CNN compresses a fully connected network in two ways:
+
+- Reducing number of connections • Shared weights on the edges • Max pooling further reduces the complexity
+
+# Rendom Search
+
+## 1️⃣ Random Search
+
+### What is it?
+
+Random Search **randomly picks hyperparameters** from the search space.
+
+No memory.
+
+No intelligence.
+
+Each trial is independent.
+
+No memory so no learn from past experience
+
+it can take much more time as ve rendomly choose hyperparameters
+
+We randomly try different settings and see which works best.
+
+### Why do this?
+
+- Simple
+- Faster than trying all combinations
+- Good starting point
+
+## 2️⃣ Hyperband
+
+### New term: Resource
+
+A **resource** is how much training we give:
+
+- Number of epochs
+- Time
+- Computation
+
+### What is Hyperband?
+
+Hyperband is **Random Search + Early Stopping**.
+
+### What is Early Stopping?
+
+Stop training models **early** if they perform badly.
+
+What we will do …..
+
+- Start **many models**
+- Train each for **few epochs**
+- Kill bad ones early
+- Give more epochs to good ones
+
+## 3️⃣ Bayesian Optimization
+
+### New term: Probabilistic Model
+
+A model that **predicts performance and uncertainty**.
+
+Usually uses a **Gaussian Process** (fancy probability model).
+
+---
+
+### What is Bayesian Optimization?
+
+It **learns from previous results** and makes **smart guesses**.
+
+---
+
+### What are we doing?
+
+1. Train model with some hyperparameters
+2. Observe result
+3. Build a probability model
+4. Predict which hyperparameters will work best next
+
+---
+
+### Why do this?
+
+Training models can be **very expensive**.
+
+Bayesian optimization reduces **number of trials needed**.
