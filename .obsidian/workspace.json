@@ -34,9 +34,47 @@
               "icon": "lucide-file",
               "title": "Time and Space Complexity"
             }
+          },
+          {
+            "id": "d88d66b3f8f92bae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fundamentals Of AI/Fundamentals OF AI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fundamentals OF AI"
+            }
+          },
+          {
+            "id": "b91c1da5992a59f9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Node Js/Drawing 2025-12-24 12.24.18.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-12-24 12.24.18.excalidraw"
+            }
+          },
+          {
+            "id": "85860ddbb21d6620",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-12-23 22.26.39.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-12-23 22.26.39.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git.md",
+                "file": "Node Js/Nodee JS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of git"
+              "title": "Outline of Nodee JS"
             }
           }
         ],
@@ -183,24 +221,42 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "github-sync:Sync with Remote": false
+      "github-sync:Sync with Remote": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c8a74adff2a2b739",
+  "active": "d88d66b3f8f92bae",
   "lastOpenFiles": [
-    "attachments/Pasted image 20251222072706.png",
-    "attachments/Pasted image 20251222071717.png",
-    "attachments/Pasted image 20251222071552.png",
-    "attachments/Pasted image 20251222071541.png",
-    "attachments/Pasted image 20251222071528.png",
-    "attachments/Pasted image 20251222071501.png",
-    "attachments/Pasted image 20251222064424.png",
-    "attachments/Pasted image 20251222064327.png",
-    "attachments/Pasted image 20251222064121.png",
-    "attachments/Pasted image 20251222064043.png",
-    "attachments/Pasted image 20251222064011.png",
-    "DSA and LeetCode/Starting.md",
+    "attachments/Pasted image 20251226004009.png",
+    "attachments/Pasted image 20251226003939.png",
+    "attachments/Pasted image 20251226003918.png",
+    "attachments/Pasted image 20251226003827.png",
+    "attachments/Pasted image 20251226003800.png",
+    "attachments/Pasted image 20251226003742.png",
+    "attachments/Pasted image 20251226003725.png",
+    "attachments/Pasted image 20251226003639.png",
+    "Node Js/Nodee JS.md",
+    "22.md",
+    "Data Visualization Using Python.md",
+    "data warehousing.md",
+    "Daily Learning/AI Engineer Interview Questions.md",
+    "Daily Note Taking/2025-10-28.md",
+    "Deep Learning/Daily Learning.md",
+    "Excalidraw/Drawing 2025-12-23 22.26.39.excalidraw.md",
+    "Node Js/Drawing 2025-12-24 12.24.18.excalidraw.md",
+    "Node Js",
+    "Daily Learning",
     "DSA/Time and Space Complexity.md",
+    "attachments/Pasted image 20251223234525.png",
+    "attachments/Pasted image 20251223232431.png",
+    "Excalidraw",
+    "Untitled.base",
+    "DSA and LeetCode/Starting.md",
+    "Project/AI Based Traffic Management System.md",
+    "Project/Real-time Customer Churn Predictor.md",
+    "Project/Project Ideas.md",
+    "Project/AI & ML Project Ideas (With Hiring Impact + Tech Stack).md",
+    "attachments/Pasted image 20251222072706.png",
     "Deep Learning/Complete Deep Learning.md",
     "Deep Learning/What is Deep Learning.md",
     "Deep Learning/2 Types Of nural Network and Applications.md",
@@ -211,29 +267,12 @@
     "Machine Learning/09 Machine Learning Development Life Cycle.md",
     "Machine Learning/08 Applications Of Machine Learning.md",
     "Machine Learning/07 Challenges In Machine Learning.md",
-    "Machine Learning/06 Instance Based vs Model Based Learning.md",
-    "Machine Learning/05 Online Machine Learning.md",
-    "Machine Learning/04 Batch Machine Learning.md",
-    "Machine Learning/03 Types Of Ml.md",
-    "Machine Learning/01 Self learning.md",
-    "Machine Learning/50 Linear Regression.md",
-    "Machine Learning/11 What are Tensors.md",
-    "Machine Learning/12 Installing Anaconda.md",
-    "Machine Learning/13 End To End ML Project toy dataset.md",
-    "Machine Learning/14 How to Frame a Machine Learning Problem.md",
-    "Machine Learning/16 working with json or sql.md",
-    "Machine Learning/17 Fetching Data From API.md",
-    "Machine Learning/19 Understanding your data.md",
     "Mathematics",
-    "Untitled",
     "Deep Learning",
     "MYSQL",
     "JAVA",
     "DSA",
     "Streamlit",
-    "Computer Vision",
-    "Untitled 2",
-    "DSA and LeetCode",
     "tags/Untitled.canvas",
     "Big Data/Untitled.canvas"
   ]

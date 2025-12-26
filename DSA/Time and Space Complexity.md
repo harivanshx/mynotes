@@ -342,3 +342,49 @@ return ret
 	 
 
 ```
+
+
+
+## Two Sum
+
+![[Pasted image 20251223232431.png]]
+
+bruteforce approach is to take the first number and then add it to every other number and check f those numbers are equal to the target
+
+for this we will take two loops one outer and one inner 
+
+
+Time complexity will eb around
+O(n^2)
+
+```python 
+class Solution:
+
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+
+        hash = {}
+
+  
+
+        for i,v in enumerate (nums):
+
+            diff = target-v
+
+            if diff in hash:
+
+                return [i,hash[diff]]
+
+            hash[v] = i
+```
+
+##   1365. How Many Numbers Are Smaller Than the Current Number
+
+
+How Many Numbers Are Smaller Than the Current Number(https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
+
+
+Given the array `nums`, for each `nums[i]` find out how many numbers in the array are smaller than it. That is, for each `nums[i]` you have to count the number of valid `j's` such that `j != i` **and** `nums[j] < nums[i]`.
+
+Return the answer in an array.
+
+![[Pasted image 20251223234525.png]]
